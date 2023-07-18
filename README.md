@@ -1,3 +1,5 @@
+Deployed: https://64b6ea911889d60433eccff0--visionary-piroshki-745bd8.netlify.app/home
+
 # memory-game
 Challenge memory game using any JS and CSS frameworks
 
