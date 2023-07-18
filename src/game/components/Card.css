@@ -1,0 +1,36 @@
+.animating {
+  pointer-events: none;
+}
+.card {
+  position: relative;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card span {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .front {
+  background: aliceblue;
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.flipped .front {
+  transform: rotateY(0deg);
+  transition: all ease-in 0.2s;
+}
+.card .back {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+.flipped .back {
+  transform: rotateY(90deg);
+  transition-delay: 0.2s;
+}
